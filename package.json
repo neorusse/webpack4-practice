@@ -4,7 +4,8 @@
   "description": "Practicing Webpack 4 and Module Bundling",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/neorusse/webpack4-practice#readme",
   "devDependencies": {
+    "lodash-es": "4.17.11",
     "webpack": "^4.26.1",
     "webpack-cli": "^3.1.2"
   }
