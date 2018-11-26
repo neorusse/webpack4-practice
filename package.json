@@ -1,0 +1,23 @@
+{
+  "name": "webpack4-practice",
+  "version": "1.0.0",
+  "description": "Practicing Webpack 4 and Module Bundling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neorusse/webpack4-practice.git"
+  },
+  "author": "Russell Nyorere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neorusse/webpack4-practice/issues"
+  },
+  "homepage": "https://github.com/neorusse/webpack4-practice#readme",
+  "devDependencies": {
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
